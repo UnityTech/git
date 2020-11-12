@@ -5,13 +5,13 @@ This is a plugin for the popular **z shell**, now the standard on Mac OS X.  It 
 
 ## Installation
 To use this plugin, clone this repo to `~/.oh-my-zsh/custom/plugins`:
-```
+```shell script
 git clone git@github.com:UnityTech/web-module-oh-my-zsh-platform.git ~/.oh-my-zsh/custom/plugins/platform
 ```
 This will automatically override the default git plugin.
 If you aren't yet using the default plugin,  
 add `platform` to the plugins in your `~/.zshrc` file:
-```
+```shell script
 plugins=(platform)
 ```
 To reload your current terminal with the new aliases:
@@ -37,10 +37,12 @@ source ~/.zshrc
 | **pfssh**     | platform environment:ssh                                  |
 &nbsp;
 
-> Check out all commands with usage and clarifications in your local
-> [platform.plugin.zsh](./platform.plugin.zsh) or the
-> [repo's source code](https://github.com/UnityTech/web-module-oh-my-zsh-platform).  
-> 
-> Alternatively, run `alias` for a list of all aliases as they're implemented,
-> `galias` for this cheatsheet, or `which <alias/function>` for a specific implementation.
+Notes:
+
+* Check out all commands with usage and clarifications in your local
+[platform.plugin.zsh](./platform.plugin.zsh) or the
+[repo's source code](https://github.com/UnityTech/web-module-oh-my-zsh-platform).  
+
+* Alternatively, run `alias` for a list of all aliases as they're implemented,
+`galias` for this cheatsheet, or `which <alias/function>` for a specific implementation.
 
