@@ -1,6 +1,7 @@
 # oh-my-zsh platform.sh cli plugin
 
-This is a plugin for the popular z shell, now the standard on all Macs.  It requires [oh my zsh]() in order to work.
+This is a plugin for the popular **z shell**, now the standard on Mac OS X.  It requires [oh my zsh](https://ohmyz.sh
+/) in order to work.
 
 ## Installation
 To use this plugin, clone this repo to `~/.oh-my-zsh/custom/plugins`:
@@ -13,7 +14,10 @@ add `platform` to the plugins in your `~/.zshrc` file:
 ```
 plugins=(platform)
 ```
-
+To reload your current terminal with the new aliases:
+```shell script
+source ~/.zshrc
+```
 
 ## Aliases cheatsheet
 

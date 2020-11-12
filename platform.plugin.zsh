@@ -1,16 +1,27 @@
 # Aliases
 #############
 
-alias g='git'
-alias ga='git add'
-alias gaa='git add --all'
-alias galias='git_list_aliases'
+alias pf='platform'
+alias pfalias='platform_list_aliases'
+
+alias pfala='platform activity:list --all'
+alias pfal='platform activity:log'
+
+alias pfd='platform db:dump --gzip'
+
+alias pfea='platform environment:activate'
+alias pfed='platform environment:delete'
+alias pfd='platform environment:drush'
+alias pfel='platform environment:list'
+alias pfl='platform environment:logs'
+alias pfer='platform environment:redeploy'
+alias pfssh='platform environment:ssh'
 
 # Functions
 ################
 
 # List all git aliases from the README:
-function git_list_aliases() {
+function platform_list_aliases() {
   filename=~/.oh-my-zsh/custom/plugins/platform/README.md
   from=$(grep -Fno '| **pf** ' ${filename} | cut -f1 -d:)
   stop=$(grep -no '&nbsp;' ${filename} | cut -f1 -d:)
