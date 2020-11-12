@@ -17,13 +17,20 @@ plugins=(platform)
 
 ## Aliases cheatsheet
 
-| Alias           | Command                                                   |
-|:----------------|:----------------------------------------------------------|
-| **g**           | git                                                       |
-| **ga**          | git add                                                   |
-| **gaa**         | git add --all                                             |
-| **gai**         | git add --interactive                                     |
-| **galias**      | git_list_aliases                                          |
+| Alias         | Command                                                   |
+|:--------------|:----------------------------------------------------------|
+| **pf**        | platform                                                  |
+| **pfalias**   | platform_list_aliases                                     |
+| **pfala**     | platform activity:list --all                              |
+| **pfal**      | platform activity:log                                     |
+| **pfd**       | platform db:dump --gzip                                   |
+| **pfea**      | platform environment:activate                             |
+| **pfed**      | platform environment:delete                               |
+| **pfd**       | platform environment:drush                                |
+| **pfel**      | platform environment:list                                 |
+| **pfl**       | platform environment:logs                                 |
+| **pfer**      | platform environment:redeploy                             |
+| **pfssh**     | platform environment:ssh                                  |
 &nbsp;
 
 > Check out all commands with usage and clarifications in your local
