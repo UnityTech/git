@@ -46,3 +46,7 @@ Notes:
 * Alternatively, run `alias` for a list of all aliases as they're implemented,
 `galias` for this cheatsheet, or `which <alias/function>` for a specific implementation.
 
+## Credits
+
+This project was forked from [David Deprost's excellent work](https://github.com/davidde/git).  Original development
+ was done by [Jordan Koplowicz](https://github.com/koppieesq) on behalf of [Unity Technologies](https://unity.com).
