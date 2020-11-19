@@ -7,7 +7,7 @@ alias pfalias='platform_list_aliases'
 alias pfala='platform activity:list --all'
 alias pfal='platform activity:log'
 
-alias pfd='platform db:dump --gzip'
+alias pfdbd='platform db:dump --gzip'
 
 alias pfea='platform environment:activate'
 alias pfed='platform environment:delete'

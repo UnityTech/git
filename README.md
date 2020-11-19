@@ -27,7 +27,7 @@ source ~/.zshrc
 | **pfalias**   | platform_list_aliases                                     |
 | **pfala**     | platform activity:list --all                              |
 | **pfal**      | platform activity:log                                     |
-| **pfd**       | platform db:dump --gzip                                   |
+| **pfdbd**     | platform db:dump --gzip                                   |
 | **pfea**      | platform environment:activate                             |
 | **pfed**      | platform environment:delete                               |
 | **pfd**       | platform environment:drush                                |
