@@ -11,9 +11,7 @@ First, please read through our
 [code of conduct](https://github.com/UnityTech/web-module-oh-my-zsh-platform/blob/master/CODE_OF_CONDUCT.md),
 as we expect all our contributors to follow it.
 
-Second, before starting on a project that you intend to contribute to the
-ML-Agents Toolkit (whether environments or modifications to the codebase), we
-**strongly** recommend posting on our
+Second, before starting on modifications to the codebase, we **strongly** recommend posting on our
 [Issues page](https://github.com/UnityTech/web-module-oh-my-zsh-platform/issues) and
 briefly outlining the changes you plan to make. This will enable us to provide
 some context that may be helpful for you. This could range from advice and
